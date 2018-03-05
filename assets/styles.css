@@ -1,0 +1,252 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+* {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#top_menu, #bottom_menu {
+    width: 100%;
+    text-align: center;
+    background-color: #80b5db;
+    position: fixed;
+    display: table;
+    min-width: 300px;
+}
+#top_menu {
+    top: 0;
+}
+
+#bottom_menu {
+    bottom: 0;
+}
+
+#top_menu a, #top_menu div.search_menu, #bottom_menu a {
+    display: table-cell;
+    width: 20%;
+    padding: 12px 0;
+    float: left;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 25px;
+    height: 25px;
+}
+
+#bottom_menu a {
+    width: 33% !important;
+}
+
+#top_menu div.search_menu {
+    width: 39%;
+    padding: 0;
+    height: 49px;
+}
+
+#top_menu div.search_menu a {
+    padding: 12px 0;
+}
+
+#search_box {
+    float: left;
+    display: inline;
+    width: 75%;
+    margin: 12px 0;
+    border-radius: 5px;
+    padding: 4px 0;
+}
+
+#top_menu a:hover, #top_menu div.search_menu:hover, #bottom_menu a:hover {
+    background-color: #0093c2;
+}
+
+#top_menu a,  #bottom_menu a {
+    border-left: solid 1px white;
+}
+
+.active {
+    background-color: #003e56;
+}
+
+#qr_scanner {
+    display: block;
+    position: fixed;
+    top: 130px;
+    left: 60px;
+}
+
+#info1 {
+    position: fixed;
+    top: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 22px;
+}
+
+#take_picture {
+    position: fixed;
+    bottom: 70px;
+    left: 130px;
+    color: #003e56;
+    font-size: 40px;
+    border: solid 1px #003e56;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#take_picture:hover, #camera_info:hover, .favourite:hover, .compare:hover, .remove-lake:hover {
+    color: #80b5db;
+    cursor: pointer;
+}
+
+.qr_menu {
+    fill: white;
+}
+
+#fish_picture {
+    opacity: 0.3;
+}
+
+#info2, #info3 {
+    position: fixed;
+    width: 100px;
+    text-align: center;
+    border: solid 1px #003e56;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#info2 {
+    bottom: 60px;
+    left: 20px;
+    border-right: 0;
+}
+
+#info3 {
+    right: 25px;
+    bottom: 50px;
+    border-left: 0;
+    padding-left: 15px;
+}
+
+#camera_info {
+    position: fixed;
+    top: 55px;
+    right: 5px;
+    font-size: 20px;
+    color: #003e56;
+}
+
+#fish_browser {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#fish_browser tr:nth-child(odd) {
+    background-color: rgba(127, 172, 212, 0.27);
+}
+
+.fish_name {
+    font-weight: bold;
+}
+
+#fish_browser tr:hover {
+    cursor: pointer;
+    background-color: #80b5db;
+}
+
+.endangered {
+    background-color: rgba(255, 0, 24, 0.28);
+}
+
+.endangered td div.fish_name, .endangered_title {
+    color: #e20000;
+}
+
+p {
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin: 5px;
+    margin-top: 10px;
+}
+
+div#dropdown_list {
+    display: none;
+    position: absolute;
+    top: 49px;
+    height: 100%;
+    float: left;
+    width: 37.5%;
+}
+
+div#dropdown_list a {
+    width: 100%;
+    background-color: #80b5db;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+    border-top: solid 1px white;
+}
+
+.meter {
+    display: block;
+    margin: auto;
+}
+
+.before_meter {
+    margin-bottom: 0
+}
+
+.favourite {
+    display: inline-block;
+    color: #003e56;
+    border: solid 1px #003e56;
+    padding: 5px;
+    border-radius: 50px;
+    float: right;
+    margin-right: 10px;
+}
+
+.endangered_page {
+    background-color: #ffd0ad;
+}
+
+.endangered_info {
+    font-style: italic;
+}
+
+.compare {
+    display: inline-block;
+    color: #003e56;
+}
+
+.comparison_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.comparison_table tr {
+    text-align: center;
+}
+
+.comparison_table tr:nth-child(even) {
+    background-color: rgba(127, 172, 212, 0.27);
+}
+
+.yes {
+    font-weight: bold;
+    color: #008000;
+}

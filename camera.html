@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fishing App</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/script.js"></script>
+</head>
+<body>
+<div id="top_menu">
+    <a href="#" id="go_back"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+    <a href="#" id="dropdown_button"><i class="fa fa-bars" aria-hidden="true"></i>
+        <div id="dropdown_list">
+            <a href="index.html">Home</a>
+            <a href="comparison.html">Compare</a>
+            <a href="#">Games</a>
+            <a href="#">Hints</a>
+            <a href="#">Settings</a>
+            <a href="#">Logout</a>
+        </div>
+    </a>
+    <div class="search_menu"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a><input type="text" id="search_box"></div>
+    <a href="user.html"><i class="fa fa-user" aria-hidden="true"></i></a>
+</div>
+
+    <img src="assets/pictures/caught-fish-cut.jpg" width="330" height="425" id="fish_picture">
+
+    <i class="fa fa-question-circle" id="camera_info" aria-hidden="true"></i>
+
+    <img src="assets/pictures/qr-scanner.svg" width="200" id="qr_scanner">
+    <i class="fa fa-camera" id="take_picture" aria-hidden="true"></i>
+
+    <div id="info1" hidden>Point the camera to the QR code to scan it automatically</div>
+    <p id="info2" hidden>Press to take a picture</p>
+    <p id="info3" hidden>Press and hold to scan a fish</p>
+
+    <div id="bottom_menu">
+        <a href="fish-browser.html"><img src="assets/pictures/fish-icon-white.png" width="30" class="fish_menu"></a>
+        <a href="map.html" class="map"><i class="fa fa-map-o" aria-hidden="true"></i></a>
+        <a href="camera.html" class="active"><img src="assets/pictures/qr-scanner-white.svg" width="20" class="qr_menu"></a>
+    </div>
+</body>
+</html>

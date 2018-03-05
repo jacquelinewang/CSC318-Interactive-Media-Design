@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<svg width="122" height="121" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_16">
+   <g id="svg_12">
+    <line id="svg_7" y2="5.041613" x2="31.103838" y1="5.041613" x1="1.02062" stroke-width="10" stroke="#000000" fill="none"/>
+    <line transform="rotate(90, 5.35393, 15.0416)" id="svg_11" y2="15.041607" x2="20.39554" y1="15.041607" x1="-9.687678" stroke-width="10" stroke="#000000" fill="none"/>
+   </g>
+   <g transform="rotate(90, 106.687, 15.7083)" id="svg_13">
+    <line id="svg_14" y2="5.708295" x2="121.728884" y1="5.708295" x1="91.645666" stroke-width="10" stroke="#000000" fill="none"/>
+    <line id="svg_15" transform="rotate(90, 95.979, 15.7083)" y2="15.708289" x2="111.020586" y1="15.708289" x1="80.937368" stroke-width="10" stroke="#000000" fill="none"/>
+   </g>
+  </g>
+  <g transform="rotate(180, 60.3539, 106.042)" id="svg_17">
+   <g id="svg_18">
+    <line id="svg_19" y2="95.708114" x2="30.083218" y1="95.708114" x1="0" stroke-width="10" stroke="#000000" fill="none"/>
+    <line id="svg_20" transform="rotate(90, 4.33331, 105.708)" y2="105.708108" x2="19.37492" y1="105.708108" x1="-10.708298" stroke-width="10" stroke="#000000" fill="none"/>
+   </g>
+   <g id="svg_21" transform="rotate(90, 105.666, 106.375)">
+    <line id="svg_22" y2="96.374796" x2="120.708264" y1="96.374796" x1="90.625046" stroke-width="10" stroke="#000000" fill="none"/>
+    <line id="svg_23" transform="rotate(90, 94.9583, 106.375)" y2="106.37479" x2="109.999966" y1="106.37479" x1="79.916748" stroke-width="10" stroke="#000000" fill="none"/>
+   </g>
+  </g>
+ </g>
+</svg>
